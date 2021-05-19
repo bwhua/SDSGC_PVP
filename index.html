@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <title>SDSGC PVP Randomizer</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background: white;">
+<body style="background: white;" onload=readJson()>
     <h1>SDSGC PVP Randomizer</h1>
-    <p>
-        We are using Node.js <span id="node-version"></span>,
-        Chromium <span id="chrome-version"></span>,
-        and Electron <span id="electron-version"></span>.
-    </p>
+
+      <label for="Race">Race:</label>
+      <select name="Race" id="race" onchange=selectRace()>
+        <option value="All">All</option>
+        <option value="Demon">Demon</option>
+        <option value="Goddess">Goddess</option>
+        <option value="Giant">Giant</option>
+        <option value="Fairy">Fairy</option>
+        <option value="Human">Human</option>
+        <option value="Unknown">Unknown</option>
+      </select>
+
+      <label for="Grade">Grade:</label>
+      <select name="Grade" id="grade" onchange=selectGrade()>
+        <option value="All">All</option>
+        <option value="SSR">SSR</option>
+        <option value="SR">SR</option>
+        <option value="R">R</option>
+      </select>
+
+      <label for="Color">Color:</label>
+      <select name="Color" id="color" onchange=selectColor()>
+        <option value="All">All</option>
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+      </select>
+      <br><br>
+
+    <div id="characterDisplay"></div>
 </body>
+<script src="index.js"></script>
 </html>
