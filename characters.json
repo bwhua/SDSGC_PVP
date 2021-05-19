@@ -1,0 +1,869 @@
+{
+  "Demon": {
+    "The Six Knights of Black Bellion": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_144.png"
+    },
+    "Ten Commandments Derieri": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_114.png"
+    },
+    "Elite Demon Derieri": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_115.png"
+    },
+    "Sweet Temptation Derieri": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_164.png"
+    },
+    "Ten Commandments Estarossa": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_111.png"
+    },
+    "Elite Demon Estarosa": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_112.png"
+    },
+    "Ten Commandments Fraudrin": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_120.png"
+    },
+    "Elite Demon Fraudrin": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_141.png"
+    },
+    "Ten Commandments Galland": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_75.png"
+    },
+    "Elite Demon Galland": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_106.png"
+    },
+    "Ashen Desire Hendrickson": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_149.png"
+    },
+    "Ten Commandments Melascula": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_91.png"
+    },
+    "Elite Demon Melascula": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_104.png"
+    },
+    "The Seven Deadly Sins Meliodas": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_9.png"
+    },
+    "Boar Hat Tavern Meliodas": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_47.png"
+    },
+    "Halloween Meliodas ": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_82.png"
+    },
+    "The Dragon Sin of Wrath": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_1.png"
+    },
+    "Knight of Wrath Meliodas": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_87.png"
+    },
+    "New Legend Meliodas": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_101.png"
+    },
+    "Lostvayne Meliodas": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_116.png"
+    },
+    "Assault Mode Meliodas": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_165.png"
+    },
+    "Ten Commandments Monspeet": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_86.png"
+    },
+    "Elite Demon Monspeet": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_113.png"
+    },
+    "The Ten Commandments Zeldris": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_124.png"
+    },
+    "Elite Demon Zeldris": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_125.png"
+    }
+  },
+  "Fairy": {
+    "Fairy King's Forest Elaine": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_73.png"
+    },
+    "Halloween Elaine": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_83.png"
+    },
+    "Sweet Temptation Elaine": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_121.png"
+    },
+    "Fairy of Blessings Elaine": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_153.png"
+    },
+    "Memmories of 3000 Years Gerharde": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_146.png"
+    },
+    "Ten Commandments Gloxinia": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_93.png"
+    },
+    "Elite Demon Gloxinia": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_126.png"
+    },
+    "Forest Guardian Helbram": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_13.png"
+    },
+    "Reincarnation of Revenge Helbram": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_63.png"
+    },
+    "Royalty Helbram": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_147.png"
+    },
+    "The Grizzly Sin of Sloth King": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_8.png"
+    },
+    "Forest Guardian King": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_19.png"
+    },
+    "Harlequin King": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_105.png"
+    },
+    "Protector of Dolls King": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_12.png"
+    },
+    "The Seven Deadly Sins King": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_38.png"
+    },
+    "Disaster King": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_90.png"
+    },
+    "Signs of Maturity King": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_148.png"
+    }
+  },
+  "Giant": {
+    "The Serpent Sin of Envy Diane": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_17.png"
+    },
+    "Heart of the Land Diane": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_58.png"
+    },
+    "The Seven Deadly Sins Diane": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_97.png"
+    },
+    "Matrona Diane": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_10.png"
+    },
+    "KungFu Master Diane": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_59.png"
+    },
+    "Creation Diane": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_80.png"
+    },
+    "Eternal Promise Diane": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_139.png"
+    },
+    "Elite Demon Drole": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_142.png"
+    },
+    "The Ten Commandments Drole": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_143.png"
+    },
+    "Fang of the Land Matrona": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_135.png"
+    }
+  },
+  "Goddess": {
+    "Liones Elizabeth": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_61.png"
+    },
+    "A New Adventure": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_77.png"
+    },
+    "New Legend Elizabeth": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_102.png"
+    },
+    "Boar Hat Tavern Elizabeth": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_60.png"
+    },
+    "Holy Warrior Elizabeth": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_137.png"
+    },
+    "Reverse Eli-Hawk": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_67.png"
+    },
+    "Mascot Eli-Hawk": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_27.png"
+    },
+    "Mobile Tavern Eli-Hawk": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_28.png"
+    },
+    "Wings of the Sky Ellatte": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_99.png"
+    },
+    "Memory Fragment Liz": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_160.png"
+    },
+    "The Four Archangels Ludociel": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_145.png"
+    },
+    "The Four Archangels Sariel": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_151.png"
+    },
+    "The Four Archangels Tarmiel": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_152.png"
+    }
+  },
+  "Human": {
+    "Beard of the Mountain Cat Alioni": {
+      "Color": "Green",
+      "Rarity": "R",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_20.png"
+    },
+    "The Pleiades of the Blue Sky Arden": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_96.png"
+    },
+    "Camelot's Sword Arthur": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_74.png"
+    },
+    "King of Prophecies Arthur": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_76.png"
+    },
+    "Destined Heir": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_117.png"
+    },
+    "Light of Hope Arthur": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_158.png"
+    },
+    "KOF 98 Athena": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_130.png"
+    },
+    "Snatch Ban": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_5.png"
+    },
+    "Outlaw Ban": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_11.png"
+    },
+    "Undead Ban": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_21.png"
+    },
+    "The Fox Sin of Greed Ban": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_18.png"
+    },
+    "Nunchaku Ban": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_78.png"
+    },
+    "Ale Collector Ban": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_98.png"
+    },
+    "Burning Ember Cain": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_22.png"
+    },
+    "The Pleiades of the Blue Sky Deathpierce": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_89.png"
+    },
+    "The Pleiades of the Blue Sky Deldry": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_95.png"
+    },
+    "The Pleiades of the Azure Sky Denzel": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_166.png"
+    },
+    "The Pleiades of the Blue Sky Dogedo": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_88.png"
+    },
+    "Omen of Chaos Dreyfus": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_25.png"
+    },
+    "Break Dreyfus": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_65.png"
+    },
+    "Ruler of Stormy Seas Eastin": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_119.png"
+    },
+    "Sunny Vacation Eastin": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_163.png"
+    },
+    "Oceanic Harmonizer Eastin": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_168.png"
+    },
+    "Stranger Things Eleven": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_170.png"
+    },
+    "Cadet Corps Eren": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_107.png"
+    },
+    "Titan Form Eren": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_108.png"
+    },
+    "Holy Knight Escanor": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_79.png"
+    },
+    "The Lion Sin of Pride Escanor": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_100.png"
+    },
+    "Invincible Avatar Escanor": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_157.png"
+    },
+    "Weird Fangs Friesia": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_30.png"
+    },
+    "Thunderbolt Gilthunder": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_15.png"
+    },
+    "Chivalrous Gilthunder": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_31.png"
+    },
+    "Star of the Kingdom Gilthunder": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_32.png"
+    },
+    "Weird Fangs Golgius": {
+      "Color": "Blue",
+      "Rarity": "R",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_37.png"
+    },
+    "Iron-Wall Knight Griamore": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_3.png"
+    },
+    "Adventurer Griamore": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_33.png"
+    },
+    "Champion Griamore": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_35.png"
+    },
+    "Explosion Guila": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_2.png"
+    },
+    "Halloween Guila": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_84.png"
+    },
+    "Rapier Guila": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_36.png"
+    },
+    "Knight of Ice Gustav": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_66.png"
+    },
+    "Melt Hendrickson": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_14.png"
+    },
+    "Omen of Chaos Hendrickson": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_64.png"
+    },
+    "Tempest Howzer": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_6.png"
+    },
+    "Star of the Kingdom Howzer": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_40.png"
+    },
+    "Liones Royalty Howzer": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_41.png"
+    },
+    "Roars of Dawn Hugo": {
+      "Color": "Green",
+      "Rarity": "R",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_42.png"
+    },
+    "Sweet Temptation Jenna": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_122.png"
+    },
+    "Godspeed Knight Jericho": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_7.png"
+    },
+    "New Legend Jericho": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_103.png"
+    },
+    "Adventurer Jericho": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_39.png"
+    },
+    "New Generation Jericho": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_43.png"
+    },
+    "Knight of Frost Jericho": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_156.png"
+    },
+    "Roars of Dawn Jillian": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_44.png"
+    },
+    "Stranger Things Jim": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_173.png"
+    },
+    "Weird Fangs Jude": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_45.png"
+    },
+    "KOF 98 Kyo": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_131.png"
+    },
+    "Greatest Soldier Levi": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_109.png"
+    },
+    "Bringer of Disaster Lilia": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_72.png"
+    },
+    "Mastermind Lilia": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_85.png"
+    },
+    "Advent of Distruction Lilia": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_150.png"
+    },
+    "KOF 98 Mai": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_132.png"
+    },
+    "Boom Boom Pow Marmas": {
+      "Color": "Blue",
+      "Rarity": "R",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_46.png"
+    },
+    "Greatest Soldier Mikasa": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_110.png"
+    },
+    "Stranger Things Mike": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_171.png"
+    },
+    "Deathbringer Mono": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_118.png"
+    },
+    "Advent of Distruction Mono": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_161.png"
+    },
+    "Mad Destroyer Roxy": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_129.png"
+    },
+    "Halloween Roxy": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_155.png"
+    },
+    "KOF 98 Omega Rugal": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_133.png"
+    },
+    "Weird Fangs Ruin": {
+      "Color": "Green",
+      "Rarity": "R",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_51.png"
+    },
+    "Dungeon Raider Shin": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_128.png"
+    },
+    "Halloween Shin": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_154.png"
+    },
+    "Roars of Dawn Simon": {
+      "Color": "Red",
+      "Rarity": "R",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_52.png"
+    },
+    "Overpower Slater": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_16.png"
+    },
+    "Roars of Dawn Slater": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_53.png"
+    },
+    "Vaizel Fight Festival Taizoo": {
+      "Color": "Red",
+      "Rarity": "R",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_55.png"
+    },
+    "Confirmation Twigod": {
+      "Color": "Red",
+      "Rarity": "R",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_54.png"
+    },
+    "Earthshaker Valenti": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_94.png"
+    },
+    "Sunny Vacation Valenti": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_162.png"
+    },
+    "Magic Weapon MK-II Valenti": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_167.png"
+    },
+    "Reincarnation of Obsession Vivian": {
+      "Color": "Red",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_81.png"
+    },
+    "Roars of Dawn Weinheidt": {
+      "Color": "Blue",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_57.png"
+    },
+    "Stranger Things Will": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_172.png"
+    },
+    "Sweet Temptation Zaneri": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_123.png"
+    },
+    "Reincarnation of conviction Zaratras": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_127.png"
+    }
+  },
+  "Unknown": {
+    "Re:Zero Beatrice": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_174.png"
+    },
+    "Re:Zero Emilia": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_175.png"
+    },
+    "Re:Zero Ram": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_176.png"
+    },
+    "Re:Zero Rem": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_177.png"
+    },
+    "Kijin Benimaru": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_70.png"
+    },
+    "Execution of Darkness Camila": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_136.png"
+    },
+    "Liones' Hero": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_4.png"
+    },
+    "Wanted Man": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_23.png"
+    },
+    "The Goat Sin of Death": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_34.png"
+    },
+    "Halloween Gowther": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_134.png"
+    },
+    "Scraps Disposal Hawk": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_138.png"
+    },
+    "The Boar Sin of Gluttony": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_49.png"
+    },
+    "Collector Merlin": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_62.png"
+    },
+    "Infinity Merlin": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_92.png"
+    },
+    "Divine Protection Merlin": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_169.png"
+    },
+    "Tyrant of Destruction Milim": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_71.png"
+    },
+    "Swift Sword Nanashi": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_159.png"
+    },
+    "Scraps Disposal Oslo & Hawk": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_140.png"
+    },
+    "Ruler of Monsters Rimuru": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_69.png"
+    },
+    "Slime Rimuru": {
+      "Color": "Green",
+      "Rarity": "SR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_68.png"
+    }
+  }
+}
