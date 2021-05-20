@@ -63,27 +63,32 @@ function getCharacterPool(){
   }
   // get valid characters grade and color
   validCharacters = filterAttributes(validCharacters, grade, 'Rarity')
+  localStorage.setItem('validCharacters', JSON.stringify(validCharacters))
   return filterAttributes(validCharacters, color, 'Color')
 }
 
 function displayCharacterPool(){
   let valid = getCharacterPool()
-  let rowlength = 5
+  let rowlength = 6
   let charCount = Object.keys(valid).length
   let display = document.getElementById('characterDisplay')
   display.innerHTML = ""
-
+  console.log(valid);
+  console.log(charCount);
 
   let i = 0
   let row = document.createElement("div")
-  row.className += ' parent'
+  row.className = "row"
+
+  let rowCount = Math.floor(charCount / rowlength)
+  let remainder = charCount % rowlength
+
+  console.log(rowCount);
   for (let key in valid){
-    // console.log(valid[key]["Image"]);
     let column = document.createElement("div")
     column.className = "column parent"
 
     let img = document.createElement("img")
-
     img.src = valid[key]["Image"]
     img.width = 100
     img.height = 100
@@ -93,20 +98,16 @@ function displayCharacterPool(){
 
     column.appendChild(img)
     column.appendChild(name)
-    column.appendChild(name)
-    column.appendChild(name)
     row.appendChild(column)
     i++
-    if(i == rowlength){
-      row = document.createElement("div")
-      row.className = "row"
+    if(i == rowlength || (rowCount == 0 && i == remainder)){
       row.appendChild(column)
       display.appendChild(row)
+      rowCount--
+      row = document.createElement("div")
+      row.className = "row"
       i = 0
     }
   }
-  console.log(display.children);
-  // for (let character in valid){
-  //   console.log(character);
-  // }
+
 }
