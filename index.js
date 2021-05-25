@@ -73,8 +73,6 @@ function displayCharacterPool(){
   let charCount = Object.keys(valid).length
   let display = document.getElementById('characterDisplay')
   display.innerHTML = ""
-  console.log(valid);
-  console.log(charCount);
 
   let i = 0
   let row = document.createElement("div")
@@ -83,7 +81,6 @@ function displayCharacterPool(){
   let rowCount = Math.floor(charCount / rowlength)
   let remainder = charCount % rowlength
 
-  console.log(rowCount);
   for (let key in valid){
     let column = document.createElement("div")
     column.className = "column parent"

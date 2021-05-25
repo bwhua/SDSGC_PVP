@@ -124,6 +124,16 @@
       "Color": "Red",
       "Rarity": "SSR",
       "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_125.png"
+    },
+    "Demon King's Deputy Zeldris": {
+      "Color": "Green",
+      "Rarity": "SSR",
+      "Image": "https://gcdatabase.com/images/characters/executioner_zeldris/ssrg_portrait.png"
+    },
+    "Pacifier Fiend Chandler": {
+      "Color": "Blue",
+      "Rarity": "SSR",
+      "Image": "https://gcdatabase.com/images/characters/chandler/ssrb_portrait.png"
     }
   },
   "Fairy": {
