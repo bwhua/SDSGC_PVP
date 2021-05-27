@@ -9,7 +9,7 @@ function selectColor(){
   displayCharacterPool()
 }
 function selectGrade(){
-  let race = document.getElementById('grade')
+  let grade = document.getElementById('grade')
   localStorage.setItem("grade", grade.value)
   displayCharacterPool()
 }

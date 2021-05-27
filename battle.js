@@ -13,6 +13,7 @@ function shuffle(array) {
   }
   return array;
 }
+
 function makeRandomTeam(team){
   let characterPool = JSON.parse(localStorage.getItem("validCharacters"))
   let characters = Object.keys(characterPool)
@@ -21,19 +22,25 @@ function makeRandomTeam(team){
   if(random.length < 4){alert("Make sure your team has 4 characters")}
   else{
     for(let i = 0; i < 4; i++){
-      character = document.getElementById(team + 'c' + i)
-
-      let img = document.createElement("img")
-      img.src = characterPool[random[i]]["Image"]
-      img.width = 100
-      img.height = 100
-
-      let name = document.createElement("p")
-      name.innerHTML = random[i]
-      character.appendChild(img)
-      character.appendChild(name)
+      displayCharacter(team, 'c' + i, random[i])
     }
+    return random
   }
+}
+
+function displayCharacter(team, charPosition, character){
+  let charPool = JSON.parse(localStorage.getItem("validCharacters"))
+
+  let charCard = document.getElementById(team + charPosition)
+  let img = document.createElement("img")
+  img.src = charPool[character]["Image"]
+  img.width = 100
+  img.height = 100
+
+  let name = document.createElement("p")
+  name.innerHTML = character
+  charCard.appendChild(img)
+  charCard.appendChild(name)
 }
 
 function reset(team){
@@ -47,11 +54,18 @@ function reset(team){
   }
 }
 
-function randomT1(){
-  reset('t1')
-  makeRandomTeam('t1')
+function randTeam(team){
+  reset(team)
+  let charPool = makeRandomTeam(team)
+  localStorage.setItem(team + "Pool", JSON.stringify(charPool.slice(4, charPool.length - 1)))
 }
-function randomT2(){
-  reset('t2')
-  makeRandomTeam('t2')
+
+function reroll(id, team){
+  let charIndex = document.getElementById(id).value
+  if (charIndex == "None"){return}
+  document.getElementById(team + 'c' + charIndex).innerHTML = ""
+  let pool = JSON.parse(localStorage.getItem(team + "Pool"))
+  displayCharacter(team, 'c' + charIndex, pool[0])
+  localStorage.setItem(team + "Pool", JSON.stringify(pool.slice(1, pool.length - 1)))
+  document.getElementById(id).selectedIndex = 0
 }
