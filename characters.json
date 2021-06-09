@@ -3,7 +3,31 @@
     "The Six Knights of Black Bellion": {
       "Color": "Blue",
       "Rarity": "SSR",
-      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_144.png"
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_144.png",
+      "Skill 1":{
+        "Name": "Test",
+        "Image": "Image",
+        "Bronze Effect": "Bronze Effect",
+        "Silver Effect": "Silver Effect",
+        "Gold Effect": "Gold Effect"
+      },
+      "Skill 2":{
+        "Name": "Test",
+        "Image": "Image",
+        "Bronze Effect": "Bronze Effect",
+        "Silver Effect": "Silver Effect",
+        "Gold Effect": "Gold Effect"
+      },
+      "Ultimate":{
+        "Name": "Test",
+        "Image": "Image",
+        "Effect": "Effect"
+      },
+      "Combined Move":{
+        "Name": "Test",
+        "Image": "Image",
+        "Effect": "Effect"
+      }
     },
     "Ten Commandments Derieri": {
       "Color": "Red",

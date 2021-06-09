@@ -83,14 +83,17 @@ function displayCharacterPool(){
 
   for (let key in valid){
     let column = document.createElement("div")
-    column.className = "column parent"
+    column.className = "column parent charCard"
 
     let img = document.createElement("img")
+    img.classList.add('image')
     img.src = valid[key]["Image"]
     img.width = 100
     img.height = 100
 
     let name = document.createElement("p")
+    name.classList.add('nameTag')
+
     name.innerHTML = key
 
     column.appendChild(img)

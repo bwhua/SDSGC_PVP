@@ -6,11 +6,12 @@
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background: white;" onload=readJson()>
+<body onload=readJson()>
     <h1>SDSGC PVP Randomizer</h1>
-    <a href="battle.html" class="button" style="text-align:right">PVP</a>
 
 
+    <div class=menu>
+      <a href="battle.html" class="button" style="text-align:right">PVP</a>
       <label for="Race">Race:</label>
       <select name="Race" id="race" onchange=selectRace()>
         <option value="All">All</option>
@@ -37,15 +38,37 @@
         <option value="Blue">Blue</option>
         <option value="Green">Green</option>
       </select>
-      <br><br>
-    <h2>Valid Characters:</h2>
-    <div id="characterDisplay"></div>
-
+    </div>
+    <!-- <br><br> -->
+    <div class=charPool>
+      <h2>Valid Characters:</h2>
+      <div id="characterDisplay"></div>
+    </div>
     <!-- The Modal -->
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
       <img class="modal-content" id="img01" style="width:150px;height:150px;"/>
-      <div id="caption"></div>
+      <div id="caption">Hello</div>
+      <table class="charInfo" id="skill_1">
+        <thead>
+          <th colspan=3>Country</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan=3>name</td>
+            <td>sub1</td>
+            <td>details</td>
+          </tr>
+          <tr>
+            <td>sub2</td>
+            <td>details</td>
+          </tr>
+          <tr>
+            <td>sub3</td>
+            <td>details</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 </body>
 <script src="index.js"></script>

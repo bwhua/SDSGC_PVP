@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* background-color: lightblue; */
 }
 
 .row {
@@ -22,7 +23,7 @@
     width:1px;/* will extand to fit longest content (image or a very long word) */
 }
 .button {
-  background-color: #4CAF50;
+  background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -32,6 +33,11 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 table,th,td{border:1px solid #000;padding:5px 5px;text-align:center;border-collapse:collapse;}
@@ -120,4 +126,46 @@ table,th,td{border:1px solid #000;padding:5px 5px;text-align:center;border-colla
   .modal-content {
     width: 100%;
   }
+}
+
+.charInfo{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html, body{
+  background-image: url("https://www.wallpapertip.com/wmimgs/140-1405866_seven-deadly-sins-grand-cross.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.menu{
+  background-color: lightgrey;
+  border-style: groove;
+  width: 50%;
+}
+
+.image{
+  background-color: blueviolet;
+}
+.nameTag{
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid red;
+  padding: 3px;
+  margin-top: auto;
+}
+.charCard{
+  border: 3px solid Black;
+  background-color: lightgrey;
+  padding: 5px;
+  width: 140px;
+  height: 200px
+}
+h1, h2{
+  text-align: center;
+  background-color: lightgrey;
+  border: 3px solid Black;
 }
