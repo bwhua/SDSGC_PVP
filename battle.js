@@ -45,8 +45,21 @@ function displayCharacter(team, charPosition, character){
   name.classList.add('nameTag')
 
   name.innerHTML = character
-  charCard.appendChild(img)
-  charCard.appendChild(name)
+
+  let hidden = document.createElement("img")
+  hidden.src = "https://i.pinimg.com/736x/d9/82/2d/d9822dbf9b08dbfd8f75910ac0a69567.jpg"
+  hidden.width = 134
+  hidden.height = 200
+  charCard.appendChild(hidden)
+  charCard.addEventListener("click", function() {
+    charCard.removeChild(hidden)
+    charCard.appendChild(img)
+    charCard.appendChild(name)
+    charCard.removeEventListener("click")
+  }, false);
+
+
+
 }
 
 function reset(team){
