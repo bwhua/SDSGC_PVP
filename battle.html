@@ -11,17 +11,19 @@
     <a href="index.html" class="button" style="text-align:right">Select Restrictions</a>
     <div class="">
       <h2>Team 1</h2>
-      <a class="button" onclick="randTeam('t1')">Randomize</a>
-      <label for="Grade">Re-Roll Character </label>
-      <select name="reroll" id="reroll1" onchange="reroll('reroll1', 't1')">
-        <option value="None">None</option>
-        <option value="0">1</option>
-        <option value="1">2</option>
-        <option value="2">3</option>
-        <option value="3">4</option>
-      </select>
+      <div class=menu>
+        <a class="button" onclick="randTeam('t1')">Randomize</a>
+        <label >Re-Roll Character </label>
+        <select name="reroll" id="reroll1" onchange="reroll('reroll1', 't1')">
+          <option value="None">None</option>
+          <option value="0">1</option>
+          <option value="1">2</option>
+          <option value="2">3</option>
+          <option value="3">4</option>
+        </select>
+      </div>
     </div>
-    <table>
+    <table width="650px" class="battleBoard">
       <thead>
         <tr>
           <th>Character 1</th>
@@ -31,7 +33,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr height="200px" width="500px">
+        <tr height="250px">
           <td><div id="t1c0" class=parent></div></td>
           <td><div id="t1c1" class=parent></div></td>
           <td><div id="t1c2" class=parent></div></td>
@@ -41,17 +43,19 @@
     </table>
 
     <h2>Team 2</h2>
-    <a class="button" onclick="randTeam('t2')">Randomize</a>
-    <label for="Grade">Re-Roll Character </label>
-    <select name="reroll" id="reroll2" onchange="reroll('reroll2', 't2')">
-      <option value="None">None</option>
-      <option value="0">1</option>
-      <option value="1">2</option>
-      <option value="2">3</option>
-      <option value="3">4</option>
-    </select>
+    <div class="menu">
+      <a class="button" onclick="randTeam('t2')">Randomize</a>
+      <label for="Grade">Re-Roll Character </label>
+      <select name="reroll" id="reroll2" onchange="reroll('reroll2', 't2')">
+        <option value="None">None</option>
+        <option value="0">1</option>
+        <option value="1">2</option>
+        <option value="2">3</option>
+        <option value="3">4</option>
+      </select>
+    </div>
 
-    <table>
+    <table width="650px" class=battleBoard>
       <thead>
         <tr>
           <th>Character 1</th>
@@ -61,7 +65,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr height="200px" width="200px">
+        <tr height="250px" width="200px">
           <td><div id="t2c0" class=parent></div></td>
           <td><div id="t2c1" class=parent></div></td>
           <td><div id="t2c2" class=parent></div></td>

@@ -32,12 +32,18 @@ function displayCharacter(team, charPosition, character){
   let charPool = JSON.parse(localStorage.getItem("validCharacters"))
 
   let charCard = document.getElementById(team + charPosition)
+  charCard.classList.add('charCard')
+
   let img = document.createElement("img")
+  img.classList.add('Image')
+
   img.src = charPool[character]["Image"]
   img.width = 100
   img.height = 100
 
   let name = document.createElement("p")
+  name.classList.add('nameTag')
+
   name.innerHTML = character
   charCard.appendChild(img)
   charCard.appendChild(name)
