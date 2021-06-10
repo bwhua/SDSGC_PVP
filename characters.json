@@ -387,7 +387,7 @@
       "Rarity": "SR",
       "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_76.png"
     },
-    "Destined Heir": {
+    "Destined Heir Arthur": {
       "Color": "Blue",
       "Rarity": "SSR",
       "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_117.png"
@@ -796,6 +796,11 @@
       "Color": "Green",
       "Rarity": "SSR",
       "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_127.png"
+    },
+    "Chosen King Excalibur Arthur": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://gcdatabase.com/images/characters/excalibur_arthur/ssrr_portrait.png"
     }
   },
   "Unknown": {
