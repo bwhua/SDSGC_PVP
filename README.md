@@ -19,7 +19,7 @@ If there aren't characters in the randomizer that are in the game, the randomize
 1. Go to ```./resources/app/characters.JSON```
 2. Fill out the missing characters information following the same format
   - The JSON is organized by race. Besides that, there is no other order they need to be in.
-### characters.json updated: After the Chosen King Excalibur Arthur (June 8, 2021)
+### Latest character added: Purgatory Ban
 
 [contributors-shield]: https://img.shields.io/github/contributors/bwhua/SDSGC_PVP.svg?style=flat-square
 [contributors-url]: https://github.com/bwhua/SDSGC_PVP/graphs/contributors

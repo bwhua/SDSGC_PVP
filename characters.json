@@ -5,27 +5,27 @@
       "Rarity": "SSR",
       "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_144.png",
       "Skill 1":{
-        "Name": "Test",
-        "Image": "Image",
-        "Bronze Effect": "Bronze Effect",
-        "Silver Effect": "Silver Effect",
-        "Gold Effect": "Gold Effect"
+        "Name": "Skill 1",
+        "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_144.png",
+        "Bronze": "Bronze",
+        "Silver": "Silver",
+        "Gold": "Gold"
       },
       "Skill 2":{
-        "Name": "Test",
-        "Image": "Image",
-        "Bronze Effect": "Bronze Effect",
-        "Silver Effect": "Silver Effect",
-        "Gold Effect": "Gold Effect"
+        "Name": "Skill 2",
+        "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_144.png",
+        "Bronze": "Bronze",
+        "Silver": "Silver",
+        "Gold": "Gold"
       },
       "Ultimate":{
-        "Name": "Test",
-        "Image": "Image",
+        "Name": "Ultimate",
+        "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_144.png",
         "Effect": "Effect"
       },
       "Combined Move":{
         "Name": "Test",
-        "Image": "Image",
+        "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_144.png",
         "Effect": "Effect"
       }
     },
@@ -801,6 +801,11 @@
       "Color": "Red",
       "Rarity": "SSR",
       "Image": "https://gcdatabase.com/images/characters/excalibur_arthur/ssrr_portrait.png"
+    },
+    "Purgatory Ban": {
+      "Color": "Red",
+      "Rarity": "SSR",
+      "Image": "https://rerollcdn.com/SDSGC/portraits/portrait_181.png"
     }
   },
   "Unknown": {
