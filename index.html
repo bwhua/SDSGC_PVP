@@ -9,7 +9,6 @@
 <body onload=readJson()>
     <h1>SDSGC PVP Randomizer</h1>
 
-
     <div class=menu>
       <a href="battle.html" class="button" style="text-align:right">PVP</a>
       <label for="Race">Race:</label>
@@ -48,23 +47,43 @@
       <span class="close">&times;</span>
       <img class="modal-content" id="img01" style="width:150px;height:150px;"/>
       <div id="caption">Hello</div>
-      <table class="charInfo" id="skill_1">
+      <table class="charInfo">
         <thead>
-          <th colspan=3>Country</th>
+          <th colspan=3 id="skill_1_name">Skill 1</th>
         </thead>
         <tbody>
           <tr>
-            <td rowspan=3>name</td>
+            <td rowspan=3 id="skill_1_img">Image</td>
             <td>sub1</td>
-            <td>details</td>
+            <td id="skill_1_bronze">Bronze</td>
           </tr>
           <tr>
             <td>sub2</td>
-            <td>details</td>
+            <td id="skill_1_silver">Silver</td>
           </tr>
           <tr>
             <td>sub3</td>
-            <td>details</td>
+            <td  id="skill_1_gold">Gold</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="charInfo">
+        <thead>
+          <th colspan=3 id="skill_2_name">Skill 2</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan=3 id="skill_2_img">Image</td>
+            <td>sub1</td>
+            <td id="skill_2_bronze">Bronze</td>
+          </tr>
+          <tr>
+            <td>sub2</td>
+            <td id="skill_2_silver">Silver</td>
+          </tr>
+          <tr>
+            <td>sub3</td>
+            <td  id="skill_2_gold">Gold</td>
           </tr>
         </tbody>
       </table>

@@ -69,21 +69,12 @@ function getCharacterPool(){
 
 function displayCharacterPool(){
   let valid = getCharacterPool()
-  let rowlength = 6
-  let charCount = Object.keys(valid).length
   let display = document.getElementById('characterDisplay')
   display.innerHTML = ""
 
-  let i = 0
-  let row = document.createElement("div")
-  row.className = "row"
-
-  let rowCount = Math.floor(charCount / rowlength)
-  let remainder = charCount % rowlength
-
   for (let key in valid){
-    let column = document.createElement("div")
-    column.className = "column parent charCard"
+    let card = document.createElement("div")
+    card.className = "card charCard"
 
     let img = document.createElement("img")
     img.classList.add('image')
@@ -96,16 +87,23 @@ function displayCharacterPool(){
 
     name.innerHTML = key
 
-    column.appendChild(img)
-    column.appendChild(name)
-    row.appendChild(column)
+    card.appendChild(img)
+    card.appendChild(name)
+    display.appendChild(card)
 
+    if("Skill 1" in valid[key]){setSkill(valid[key]["Skill 1"])}
+    // if("Skill 2" in valid[key]){setSkill(valid[key]["Skill 2"])}
+    if("Ultimate" in valid[key]){setUlt(valid[key]["Ultimate"])}
+
+    setUlt(valid[key]["Ultimate"])
+
+    if("Combined Move" in valid[key]){ setComb(valid[key]["Combined Move"])}
     var modal = document.getElementById("myModal");
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var modalImg = document.getElementById('img01');
     var captionText = document.getElementById("caption");
-    column.onclick = function(){
+    card.onclick = function(){
       modal.style.display = "block";
       modalImg.src = img.src;
       captionText.innerHTML = key;
@@ -118,18 +116,20 @@ function displayCharacterPool(){
       modal.style.display = "none";
     }
     modal.onclick = function() {
-          modal.style.display = "none";
+      modal.style.display = "none";
     }
+    display.appendChild(card)
 
-    i++
-    if(i == rowlength || (rowCount == 0 && i == remainder)){
-      row.appendChild(column)
-      display.appendChild(row)
-      rowCount--
-      row = document.createElement("div")
-      row.className = "row"
-      i = 0
-    }
   }
 
+}
+
+function setSkill(skill){
+
+}
+function setUlt(ult){
+  null;
+}
+function setComb(move){
+  null;
 }

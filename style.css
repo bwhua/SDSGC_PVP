@@ -1,27 +1,20 @@
 * {
   box-sizing: border-box;
-  /* background-color: lightblue; */
-}
-
-.row {
-  display: flex;
 }
 
 /* Create three equal columns that sits next to each other */
-.column {
+.card {
   display: flex;
   padding: 5px;
   text-align:center;
+  height: 10px;
+  width: 10px;
+  padding:2em;
+  margin:5px;
+  display:table;
+  width:1px;
 }
 
-.parent {
-    height: 10px;
-    width: 10px;
-    padding:5px;
-    margin:5px;
-    display:table;
-    width:1px;/* will extand to fit longest content (image or a very long word) */
-}
 .button {
   background-color: goldenrod;
   border-radius: 10px;
@@ -37,8 +30,14 @@
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
-.button2:hover {
+.button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#characterDisplay{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: center;
 }
 
 table,th,td{
@@ -47,14 +46,6 @@ table,th,td{
   text-align:center;
   border-collapse:collapse;
   }
-
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -150,7 +141,11 @@ html, body{
 .menu{
   background-color: lightgrey;
   border-style: groove;
+  border-radius: 30px;
+  padding: 1em;
   width: 50%;
+  justify-content: center;
+  text-align: center;
 }
 
 .image{
@@ -168,7 +163,7 @@ html, body{
 .charCard{
   border: 3px solid Black;
   background-color: lightgrey;
-  padding: 5px;
+  padding: 1px;
   width: 140px;
   height: 200px
 }
