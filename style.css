@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+:root {
+
+  --clr-light: #fff;
+  --clr-dark: #303030;
+  --clr-accent: #16e0bd;
+}
 
 /* Create three equal columns that sits next to each other */
 .card {
@@ -14,7 +20,6 @@
   display:table;
   width:1px;
 }
-
 .button {
   background-color: goldenrod;
   border-radius: 10px;
@@ -139,13 +144,15 @@ html, body{
   background-size: cover;
 }
 .menu{
-  background-color: lightgrey;
   border-style: groove;
+  border-color: black;
   border-radius: 30px;
   padding: 1em;
   width: 50%;
   justify-content: center;
   text-align: center;
+  background-color: var(--clr-dark);
+  color: var(--clr-accent);
 }
 
 .image{
@@ -163,14 +170,31 @@ html, body{
 .charCard{
   border: 3px solid Black;
   background-color: lightgrey;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0Q-NmWc648Uu8nlCRXjONWASRXh0jsaNJQ&usqp=CAU");
   padding: 1px;
   width: 140px;
   height: 200px
 }
 h1, h2{
+  /* width: 50%; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
   text-align: center;
-  background-color: lightgrey;
+  background-color: var(--clr-dark);
+  color: var(--clr-accent);
+  padding: 0em 1em 0em 1em;
   border: 3px solid Black;
+  border-radius: 1rem;
+}
+h1{
+  font-size: 4rem;
+  width: 75%;
+}
+h2{
+  font-size: 3rem;
+  width: 50%
 }
 .battleBoard{
   border: 3px solid Black;
