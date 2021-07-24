@@ -131,9 +131,13 @@ table,th,td{
 }
 
 .charInfo{
-  color: white;
+  color: var(--clr-accent);
+  /* border: 6px solid var(--clr-accent); */
+  border-radius: 5%;
+  background-color: var(--clr-dark);
   margin-left: auto;
   margin-right: auto;
+  width: 40%;
 }
 
 html, body{
@@ -209,4 +213,12 @@ td.battleBoard{
 }
 div{
   margin: auto;
+}
+#skills, #unique, #ult{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+.unique_table{
+  width: 75%;
 }

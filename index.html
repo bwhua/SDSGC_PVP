@@ -45,49 +45,170 @@
     <!-- The Modal -->
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
-      <img class="modal-content" id="img01" style="width:150px;height:150px;"/>
-      <div id="caption">Hello</div>
-      <table class="charInfo">
-        <thead>
-          <th colspan=3 id="skill_1_name">Skill 1</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td rowspan=3 id="skill_1_img">Image</td>
-            <td>sub1</td>
-            <td id="skill_1_bronze">Bronze</td>
-          </tr>
-          <tr>
-            <td>sub2</td>
-            <td id="skill_1_silver">Silver</td>
-          </tr>
-          <tr>
-            <td>sub3</td>
-            <td  id="skill_1_gold">Gold</td>
-          </tr>
-        </tbody>
-      </table>
-      <table class="charInfo">
-        <thead>
-          <th colspan=3 id="skill_2_name">Skill 2</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td rowspan=3 id="skill_2_img">Image</td>
-            <td>sub1</td>
-            <td id="skill_2_bronze">Bronze</td>
-          </tr>
-          <tr>
-            <td>sub2</td>
-            <td id="skill_2_silver">Silver</td>
-          </tr>
-          <tr>
-            <td>sub3</td>
-            <td  id="skill_2_gold">Gold</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+      <img class="modal-content" id="img01" style="width:100px;height:100px;"/>
+      <div id="caption">
+        <p id=char_name>char_name</p>
+      </div>
+      <div id="unique">
+        <table class="charInfo unique_table" id="unique_1">
+          <thead>
+            <th colspan=2 id="unique_1_name">Unique 1</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan=2>
+                <img alt="unique img" id="unique_1_img" style="width:50px;height:50px;"><img>
+              </td>
+              <td id="unique_1_effect">DETAILS</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="charInfo unique_table" id="unique_2">
+          <thead>
+            <th colspan=2 id="unique_2_name">Unique 2</th>
+          </thead>
+            <tbody>
+              <tr>
+                <td rowspan=2>
+                  <img alt="unique img" id="unique_2_img" style="width:50px;height:50px;"><img>
+                </td>
+                <td id="unique_2_effect">DETAILS</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+
+      <div id="skills">
+        <table class="charInfo" id="skill_1">
+          <thead>
+            <th colspan=3 id="skill_1_name">Skill 1</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan=3 >
+                <img alt="skill 1 img" id="skill_1_img" style="width:7rem;height:12rem;"><img>
+              </td>
+              <td>sub1</td>
+              <td id="skill_1_bronze">Bronze</td>
+            </tr>
+            <tr>
+              <td>sub2</td>
+              <td id="skill_1_silver">Silver</td>
+            </tr>
+            <tr>
+              <td>sub3</td>
+              <td  id="skill_1_gold">Gold</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="charInfo" id="skill_2">
+          <thead>
+            <th colspan=3 id="skill_2_name">Skill 2</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan=3>
+                <img alt="skill 2 img" id="skill_2_img" style="width:7rem;height:12rem;"><img>
+              </td>
+              <td>sub1</td>
+              <td id="skill_2_bronze">Bronze</td>
+            </tr>
+            <tr>
+              <td>sub2</td>
+              <td id="skill_2_silver">Silver</td>
+            </tr>
+            <tr>
+              <td>sub3</td>
+              <td  id="skill_2_gold">Gold</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="charInfo" id="skill_3">
+          <thead>
+            <th colspan=3 id="skill_3_name">Skill 3</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan=3 >
+                <img alt="skill 3 img" id="skill_3_img" style="width:7rem;height:12rem;"><img>
+              </td>
+              <td>sub1</td>
+              <td id="skill_3_bronze">Bronze</td>
+            </tr>
+            <tr>
+              <td>sub2</td>
+              <td id="skill_3_silver">Silver</td>
+            </tr>
+            <tr>
+              <td>sub3</td>
+              <td  id="skill_3_gold">Gold</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="charInfo" id="skill_4">
+          <thead>
+            <th colspan=3 id="skill_4_name">Skill 4</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan=3>
+                <img alt="skill 4 img" id="skill_4_img" style="width:7rem;height:12rem;"><img>
+              </td>
+              <td>sub1</td>
+              <td id="skill_4_bronze">Bronze</td>
+            </tr>
+            <tr>
+              <td>sub2</td>
+              <td id="skill_4_silver">Silver</td>
+            </tr>
+            <tr>
+              <td>sub3</td>
+              <td  id="skill_4_gold">Gold</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="ult">
+        <table class="charInfo" id="ult_1">
+          <thead>
+            <th colspan=2 id="ult_1_name">Ultimate</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan=2>
+                <img alt="ult img" id="ult_1_img" style="width:7rem;height:12rem;"><img>
+              </td>
+              <td id="ult_1_effect">Ultimate Effect</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="charInfo" id="ult_2">
+          <thead>
+            <th colspan=2 id="ult_2_name">Ultimate</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan=2>
+                <img alt="ult img" id="ult_2_img" style="width:7rem;height:12rem;"><img>
+              </td>
+              <td id="ult_2_effect">Ultimate Effect</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="charInfo" id="comb">
+          <thead>
+            <th colspan=2 id="comb_name">Ultimate</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan=2>
+                <img alt="ult img" id="comb_img" style="width:7rem;height:12rem;"><img>
+              </td>
+              <td id="comb_effect">Ultimate Effect</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 </body>
 <script src="index.js"></script>
 </html>

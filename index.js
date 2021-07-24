@@ -91,25 +91,32 @@ function displayCharacterPool(){
     card.appendChild(name)
     display.appendChild(card)
 
-    if("Skill 1" in valid[key]){setSkill(valid[key]["Skill 1"])}
-    // if("Skill 2" in valid[key]){setSkill(valid[key]["Skill 2"])}
-    if("Ultimate" in valid[key]){setUlt(valid[key]["Ultimate"])}
-
-    setUlt(valid[key]["Ultimate"])
-
     if("Combined Move" in valid[key]){ setComb(valid[key]["Combined Move"])}
     var modal = document.getElementById("myModal");
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var modalImg = document.getElementById('img01');
-    var captionText = document.getElementById("caption");
+    var char_name = document.getElementById("char_name");
+    // var unique = document.getElementById("char_unique");
     card.onclick = function(){
       modal.style.display = "block";
       modalImg.src = img.src;
-      captionText.innerHTML = key;
+      char_name.innerHTML = key;
+
+      setUnique("unique_1", valid[key]["Unique"])
+      "Unique 2" in valid[key] ? setUnique("unique_2", valid[key]["Unique 2"]) : document.getElementById("unique_2").style.display = "none";
+
+      setSkill("skill_1", valid[key]["Skill 1"])
+      setSkill("skill_2", valid[key]["Skill 2"])
+      "Skill 3" in valid[key] ? setSkill("skill_3", valid[key]["Skill 3"]) : document.getElementById("skill_3").style.display = "none";
+      "Skill 4" in valid[key] ? setSkill("skill_4", valid[key]["Skill 4"]) : document.getElementById("skill_4").style.display = "none";
+
+      if("Ultimate" in valid[key]){setUlt("ult_1", valid[key]["Ultimate"])}
+      "Ultimate 2" in valid[key] ? setUlt("ult_2", valid[key]["Ultimate 2"]) : document.getElementById("ult_2").style.display = "none"
+      "Combined Move" in valid[key] ? setUlt("comb", valid[key]["Combined Move"]) : document.getElementById("comb").style.display = "none"
+
     }
 
-    // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
@@ -119,17 +126,49 @@ function displayCharacterPool(){
       modal.style.display = "none";
     }
     display.appendChild(card)
-
   }
 
 }
 
-function setSkill(skill){
+function setSkill(skill_num, skill){
+  document.getElementById(skill_num).style.display = ''
+  let name = document.getElementById(skill_num + "_name");
+  let img = document.getElementById(skill_num + "_img");
+  let bronze = document.getElementById(skill_num + "_bronze");
+  let silver = document.getElementById(skill_num + "_silver");
+  let gold = document.getElementById(skill_num + "_gold");
 
+  name.innerHTML = skill["Name"]
+  img.src = skill['Image']
+  bronze.innerHTML = skill['Bronze']
+  silver.innerHTML = skill['Silver']
+  gold.innerHTML = skill['Gold']
+
+  console.log(img.src);
 }
-function setUlt(ult){
-  null;
+function setUlt(ult_num, ult){
+  console.log(ult_num);
+  document.getElementById(ult_num).style.display = ''
+  let name = document.getElementById(ult_num + "_name");
+  let img = document.getElementById(ult_num + "_img");
+  let effect = document.getElementById(ult_num + "_effect");
+
+  name.innerHTML = "Ultimate: " + ult["Name"]
+  img.src = ult['Image']
+  effect.innerHTML = ult['Effect']
 }
+
+function setUnique(unique_num, unique){
+  document.getElementById(unique_num).style.display = ''
+  let name = document.getElementById(unique_num + "_name");
+  let img = document.getElementById(unique_num + "_img");
+  let effect = document.getElementById(unique_num + "_effect");
+
+  name.innerHTML = unique["Name"]
+  img.src = unique['Image']
+  effect.innerHTML = unique['Effect']
+}
+
 function setComb(move){
   null;
 }
