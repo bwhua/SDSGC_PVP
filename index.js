@@ -137,6 +137,9 @@ function setSkill(skill_num, skill){
   let bronze = document.getElementById(skill_num + "_bronze");
   let silver = document.getElementById(skill_num + "_silver");
   let gold = document.getElementById(skill_num + "_gold");
+  let bronze_effect = document.getElementById(skill_num + "_bronze_effect");
+  let silver_effect = document.getElementById(skill_num + "_silver_effect");
+  let gold_effect = document.getElementById(skill_num + "_gold_effect");
 
   name.innerHTML = skill["Name"]
   img.src = skill['Image']
@@ -144,8 +147,18 @@ function setSkill(skill_num, skill){
   silver.innerHTML = skill['Silver']
   gold.innerHTML = skill['Gold']
 
-  console.log(img.src);
+  set_effect_img(bronze_effect, skill['Bronze Type'])
+  set_effect_img(silver_effect, skill['Silver Type'])
+  set_effect_img(gold_effect, skill['Gold Type'])
 }
+
+function set_effect_img(img, name){
+  if (name == "Attack") {img.src = "https://rerollcdn.com/SDSGC/ui/skill_damage.png"}
+  else if (name == "Debuff") {img.src = "https://rerollcdn.com/SDSGC/ui/skill_debuff.png"}
+  else if (name == "Buff") {img.src = "https://rerollcdn.com/SDSGC/ui/skill_buff.png"}
+  else {img.src = "https://rerollcdn.com/SDSGC/ui/skill_recovery.png"}
+}
+
 function setUlt(ult_num, ult){
   console.log(ult_num);
   document.getElementById(ult_num).style.display = ''

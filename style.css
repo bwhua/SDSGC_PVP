@@ -219,6 +219,6 @@ div{
   flex-wrap: wrap;
   padding-bottom: 2rem;
 }
-.unique_table{
-  width: 75%;
+#unique{
+  flex-direction: column;
 }
