@@ -6,8 +6,10 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-Disclaimer: This project is a PvP randomizer for the mobile game Seven Deadly Sins: Grand Cross. I do not own the rights to either ```Seven Deadly Sins``` the animation or
+# Disclaimer
+- This project is a PvP randomizer for the mobile game Seven Deadly Sins: Grand Cross. I do not own the rights to either ```Seven Deadly Sins``` the animation or
 ```Seven Deadly Sins: Grand Cross```.
+- This project is no longer in development as it is now being hosted using github pages [Here](https://bwhua.github.io/sdsgc-pvp-randomizer/).
 ## How to Use
 1. Download the latest version's .zip file (not the source code) from [Releases](https://github.com/bwhua/SDSGC_PVP/releases)
 2. Extract the contents and put it in a folder
